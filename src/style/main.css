@@ -4,20 +4,28 @@
 @tailwind utilities;
 
     @layer components{
-        .logo{
-            @apply bg-blue-400 rounded-full text-white text-2xl w-10 h-10 flex justify-center items-center
+        .logo_blue{
+            @apply bg-blue-400 rounded-full text-white text-2xl font-bold w-10 h-10 flex justify-center items-center
+         }
+
+         .logo_white{
+            @apply bg-white rounded-full text-blue-400 text-2xl font-bold w-10 h-10 flex justify-center items-center
          }
 
         .text_gray{
-            @apply text-gray-500 font-normal text-xl leading-6
-        }
-
-        .text_titr{
-            @apply font-semibold text-2xl
+            @apply text-gray-500 font-light text-xl leading-6
         }
 
         .text_gray1{
-            @apply text-gray-500 font-light text-lg leading-6
+            @apply text-gray-500 font-light text-base leading-6
+        }
+
+        .text_gray2{
+            @apply  text-gray-500 font-light text-lg
+        }
+
+        .text_titr{
+            @apply font-bold text-5xl
         }
 
         .text_white{
@@ -25,23 +33,23 @@
         }
 
         .btn_blue{
-            @apply bg-blue-400 rounded-full text-white text-lg w-[200px] h-[60px] flex justify-center items-center
+            @apply bg-blue-400 w-52 rounded-[55px] px-11 py-3 text-white font-bold text-lg
         }
 
         .btn_white{
-            @apply border border-blue-400 rounded-full text-blue-400 text-lg w-[200px] h-[60px] flex justify-center items-center
-        }
-
-        .box{
-            @apply bg-white rounded-xl px-5
+            @apply border border-blue-400 w-52 rounded-[55px] px-11 py-3 text-blue-400 font-bold text-lg flex justify-center items-center
         }
 
         .btn_none{
             @apply rounded-full text-blue-400 text-lg w-[266px] h-[28px] flex justify-start items-center
         }
 
-        .box1{
-            @apply bg-white rounded-xl rounded-2xl"
+        .box{
+            @apply bg-white rounded-xl px-5 shadow-md
         }
 
+        .box1{
+            @apply bg-white rounded-2xl shadow-md
+        }
+        
     }
