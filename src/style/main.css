@@ -29,7 +29,16 @@
         }
 
         .text_white{
-            @apply text-white font-normal text-xl leading-6
+            @apply text-white font-normal text-lg leading-6
+        }
+
+        .text_white1{
+            @apply text-white font-extralight text-lg leading-7
+        }
+
+
+        .text_white2{
+            @apply text-white font-light text-lg leading-[38px]
         }
 
         .btn_blue{
