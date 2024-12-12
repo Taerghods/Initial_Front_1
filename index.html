@@ -26,10 +26,10 @@
             </div>
         </header>
 <!-- absolute -->
-        <img src="./src/image/element01.jpg" class="absolute -z-10 -left-[12%] overflow-hidden">
+        <img src="./src/image/element01.jpg" class="absolute -z-10 -left-[12%]">
 <!-- section 1 -->
-        <section class="grid grid-cols-2 grid-flow-row items-center gap-[10px]">
-            <div>
+        <section class="grid grid-cols-1 md:grid-cols-2 grid-flow-row items-center gap-[10px]">
+            <div class="px-5 md:px-0">
                 <h1 class="font-bold text-2xl lg:text-4xl">Virtual healthcare for you</h1>
                 <p class="mt-[25px] mb-[45px] text_gray">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone</p>
                 <button class="btn_blue">Consult today</button>
@@ -38,19 +38,18 @@
                 <img src="./src/image/illustration.jpg">
             </div>
         </section>
-
 <!-- section 2 -->
         <section class="my-40 relative">
             <div class="flex flex-col items-center gap-7">
                 <h3 class="font-bold text-4xl">Our services</h3>
                 <hr class="w-[56px] my-5 mx-auto border-b-0 bg-transparent border-black"/>
-                <p class="text_gray2 w-[1100px] h-[60px] text-center">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
+                <p class="text_gray2 text-center">We provide to you the best choiches for you. Adjust it to your health needs and make sure your undergo treatment with our highly qualified doctors you can consult with us which type of service is suitable for your health</p>
             </div>
      <!-- absolute -->
             <img src="./src/image/element02.jpg" class="absolute -z-10 -right-[50px] top-[53%]">
             <img src="./src/image/Vector01.jpg" class="absolute -z-10 -left-[30%]">
      <!--   box   -->
-            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mt-20">
                 <div class="box">
                     <img src="./src/image/Search doctor.jpg" class="object-center py-10">
                     <h3 class="font-bold text-2xl">Search doctor</h3>
@@ -87,37 +86,31 @@
             </div>
         </section>
 <!-- section 3 -->
-        <section>
-            <div class="px-20">
-                <div class="flex flex-row h-[477px] gap-28 justify-between">
-                    <div class="h-[477px] w-[650px]">
-                        <img src="./src/image/illustration01.jpg" class="object-center">
-                    </div>
-                    <div class="h-[477px] w-[445px] flex flex-col">
-                        <h3 class="font-bold text-4xl">Leading healthcare providers</h3>
-                        <hr class="w-[56px] my-10 border-b-0 bg-transparent border-black"/>
-                        <p class="text_gray2">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver</p>
-                        <button class="btn_white my-10">Learn more</button>
-                    </div>
-                </div>
+        <section class="grid grid-cols-1 md:grid-cols-2 grid-flow-row items-center gap-[10px]">
+            <div>
+                <img src="./src/image/illustration01.jpg">
+            </div>
+            <div class="px-5 md:px-0">
+                <h3 class="font-bold text-2xl lg:text-4xl">Leading healthcare providers</h3>
+                <hr class="w-[56px] my-10 border-b-0 bg-transparent border-black"/>
+                <p class="mt-[25px] mb-[45px] text_gray">Trafalgar provides progressive, and affordable healthcare, accessible on mobile and online for everyone. To us, it’s not just work. We take pride in the solutions we deliver</p>
+                <button class="btn_white my-10">Learn more</button>
             </div>
         </section>
 <!-- absolute -->
         <img src="./src/image/element01.jpg" class="absolute -z-10 -right-[11%]">
 <!-- section 4 -->
-        <section class="my-20">
-            <div class="flex flex-row gap-28 justify-between">
-                <div class="h-[477px] w-[445px] flex flex-col  px-20">
-                    <h3 class="font-bold text-4xl h-[112px] w-[481px]">Download our mobile apps</h3>
-                    <hr class="w-[56px] my-10 border-b-0 bg-transparent border-black"/>
-                    <p class="text_gray2">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
-                    <button class="btn_white my-10">Download
-                        <img src="./src/image/flesh.jpg" class="ml-4 w-[10px] h[16px] object-center">
-                    </button>
-                </div>
-                <div class="h-[477px] w-[650px]">
-                    <img src="./src/image/illustration02.jpg" class="object-center">
-                </div>
+        <section class="my-20 grid grid-cols-1 md:grid-cols-2 grid-flow-row items-center gap-[10px]">
+            <div class="px-5 md:px-0">
+                <h3 class="font-bold text-2xl lg:text-4xl">Download our mobile apps</h3>
+                <hr class="w-[56px] my-10 border-b-0 bg-transparent border-black"/>
+                <p class="mt-[25px] mb-[45px] text_gray">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no tedeous form, long calls, or administrative hassle) and securely</p>
+                <button class="btn_white my-10">Download
+                    <img src="./src/image/flesh.jpg" class="ml-4 w-[10px] h[16px] object-center">
+                </button>
+            </div>
+            <div>
+                <img src="./src/image/illustration02.jpg">
             </div>
         </section>    
 <!-- section 5 -->
@@ -130,9 +123,8 @@
                     <p class="text-white font-bold text-4xl">What our customer are saying</p>
                     <hr class="w-[56px] my-10 border-b-0 bg-transparent border-white"/>
                 </div>
-                
                 <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-x-28 justify-around items-center px-40 py-20">
-                    <div class="flex flex-row gap-x-7">
+                    <div class="flex flex-col md:flex-row gap-x-7">
                         <div>
                             <img src="./src/image/image 00.jpg" class="rounded-full border-white border-8">
                         </div>
@@ -160,7 +152,7 @@
             <img src="./src/image/Vector02.jpg" class="absolute -z-10 -right-[30%]">
             <img src="./src/image/element02.jpg" class="absolute -z-10 top-[12%] -left-[5%]">
      <!--   box   -->
-            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 mt-20">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-9 mt-20">
                 <div class="box1">
                     <img src="./src/image/image 01.jpg" class="h-[240px] w-[350px] object-center rounded-t-2xl">
                     <div class="flex flex-col items-center">
@@ -209,7 +201,7 @@
 
 
     <div class="bg-blue-400">
-        <div class="grid grid-flow-row sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 px-48 py-32">
+        <div class="grid grid-flow-row grid-cols-1 md:grid-cols-5 px-48 py-32">
             <div class="col-span-2 flex flex-col gap-y-5 px-20">
                 <div class="flex flex-row">
                     <div class="logo_white">T</div>
