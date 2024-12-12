@@ -13,7 +13,7 @@
          }
 
         .text_gray{
-            @apply text-gray-500 font-light text-xl leading-6
+            @apply text-gray-500 font-light text-xl leading-8
         }
 
         .text_gray1{
@@ -29,7 +29,7 @@
         }
 
         .text_white{
-            @apply text-white font-normal text-lg leading-6
+            @apply text-white font-normal text-lg leading-[30px]
         }
 
         .text_white1{
